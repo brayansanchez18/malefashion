@@ -11,4 +11,12 @@ class ModeloSlide
     return $stmt->fetchAll();
     $stmt = null;
   }
+
+  static public function mdlMostrarCTA($tabla)
+  {
+    $stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla");
+    $stmt->execute();
+    return $stmt->fetchAll();
+    $stmt = null;
+  }
 }
