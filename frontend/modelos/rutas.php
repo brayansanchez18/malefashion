@@ -7,7 +7,7 @@ class Ruta{
 	=========================================*/
 	
 	static public function frontend(){
-		return 'https://localhost/eshopper/frontend/';
+		return 'https://localhost/malefashion/frontend/';
 	}
 	
 	/*=====  End of RUTA DEL FRONTEND  ======*/
@@ -17,7 +17,7 @@ class Ruta{
 	========================================*/
 	
 	static public function backend(){
-		return 'https://localhost/eshopper/backend/';
+		return 'https://localhost/malefashion/backend/';
 	}
 	
 	/*=====  End of RUTA DEL BACKEND  ======*/
