@@ -1,7 +1,7 @@
 <!-- Hero Section Begin -->
 <section class="hero">
   <div class="hero__slider owl-carousel">
-    <div class="hero__items set-bg" data-setbg="<?=$backend?>vistas/img/hero/hero-1.jpg">
+    <div class="hero__items set-bg" data-setbg="<?= $backend ?>vistas/img/hero/hero-1.jpg">
       <div class="container">
         <div class="row">
           <div class="col-xl-5 col-lg-7 col-md-8">
@@ -13,9 +13,7 @@
                 crafted with an unwavering commitment to exceptional
                 quality.
               </p>
-              <a href="#" class="primary-btn"
-                >Shop now <span class="arrow_right"></span
-              ></a>
+              <a href="#" class="primary-btn">Shop now <span class="arrow_right"></span></a>
               <div class="hero__social">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
@@ -27,7 +25,7 @@
         </div>
       </div>
     </div>
-    <div class="hero__items set-bg" data-setbg="<?=$backend?>vistas/img/hero/hero-2.jpg">
+    <div class="hero__items set-bg" data-setbg="<?= $backend ?>vistas/img/hero/hero-2.jpg">
       <div class="container">
         <div class="row">
           <div class="col-xl-5 col-lg-7 col-md-8">
@@ -39,9 +37,7 @@
                 crafted with an unwavering commitment to exceptional
                 quality.
               </p>
-              <a href="#" class="primary-btn"
-                >Shop now <span class="arrow_right"></span
-              ></a>
+              <a href="#" class="primary-btn">Shop now <span class="arrow_right"></span></a>
               <div class="hero__social">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
@@ -53,6 +49,6 @@
         </div>
       </div>
     </div>
-  </div>s
+  </div>
 </section>
 <!-- Hero Section End -->
