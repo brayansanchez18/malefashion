@@ -1,6 +1,8 @@
 <?php
 $frontend = Ruta::frontend();
 $backend = Ruta::backend();
+$comercio = ControladorPlantilla::ctrMostrarDivisa();
+$divisa = $comercio['divisa'];
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -152,12 +154,12 @@ $backend = Ruta::backend();
       $ruta != null || $rutas[0] == 'articulos-recientes' || $rutas[0] == 'lo-mas-vendido' || $rutas[0] == 'lo-mas-visto'
     ) {
 
-      include_once 'modulos/shop.php';
+      include_once 'modulos/productos.php';
     } else if ($infoProductos != null) {
 
       include 'modulos/detalles.php';
     } else if (
-      $rutas[0] == 'buscador' || $rutas[0] == 'verificar' || $rutas[0] == 'salir' || $rutas[0] == 'perfil' || $rutas[0] == 'carrito-compras' || $rutas[0] == 'error' || $rutas[0] == 'finalizar-compra' || $rutas[0] == 'ofertas' || $rutas[0] == 'cancelado' || $rutas[0] == 'soporte' || $rutas[0] == 'shop' || $rutas[0] == 'sobre-nosotros'
+      $rutas[0] == 'buscador' || $rutas[0] == 'verificar' || $rutas[0] == 'salir' || $rutas[0] == 'perfil' || $rutas[0] == 'carrito-compras' || $rutas[0] == 'error' || $rutas[0] == 'finalizar-compra' || $rutas[0] == 'ofertas' || $rutas[0] == 'cancelado' || $rutas[0] == 'soporte' || $rutas[0] == 'tienda' || $rutas[0] == 'sobre-nosotros'
     ) {
 
       include 'modulos/' . $rutas[0] . '.php';
